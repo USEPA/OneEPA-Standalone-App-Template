@@ -1,0 +1,20 @@
+.box .pane-content {
+	font-size: 88.23%;
+}
+.box > .pane-content {
+	border: 1px solid #5b616b;
+	border-bottom-width: 4px;
+	padding: 1.3529em 1em;
+}
+.box > .pane-content > :last-child {
+	padding-bottom: 0px;
+}
+
+/* Multipurpose Box */
+
+.multi > .pane-title, .multi > .view-mode-block_header, .multi > .pane-content, .multi > .pane-content > .footer {
+	border-color: #5b616b;
+}
+.multi.related-info > .pane-title, .multi.related-info > .view-mode-block_header, .multi.related-info > .pane-content, .box.multi.related-info > .pane-content > .footer {
+	border-color: #2e8540;
+}
