@@ -13,8 +13,23 @@ As a result of the template containing the bare minimum CSS necessary, we will b
 
 CSS for the Related Info Box that would need to be added:
 ```css
-.box .pane-content {
-	font-size: 88.23%;
+h1, h2, h3, h4, h5, h6, legend, caption {
+	font-family: "Merriweather","Georgia","Cambria","Times New Roman","Times",serif;
+	font-weight: bold;
+	line-height: 1.3;
+	margin: 0;
+	text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0 0 0.5em;
+}
+.box > .pane-title {
+	border: 1px solid #5b616b;
+	border-bottom: 0;
+	font-size: 100%;
+	padding: 0.9412em 1em 0.7647em;
+	text-align: center;
 }
 .box > .pane-content {
 	border: 1px solid #5b616b;
@@ -24,8 +39,27 @@ CSS for the Related Info Box that would need to be added:
 .multi > .pane-title, .multi > .view-mode-block_header, .multi > .pane-content, .multi > .pane-content > .footer {
 	border-color: #5b616b;
 }
+.box.multi > .pane-title {
+	background-color: #5b616b;
+	color: #fff;
+}
+.box.multi > .pane-title, .box.multi > .pane-content > .footer {
+	background-color: #5b616b;
+	color: #fff;
+}
+.box > .pane-title + .pane-content, .box > .pane-title + .view-mode-block_header, .box > .view-mode-block_header + .pane-content {
+	border-top: 0;
+}
 .multi.related-info > .pane-title, .multi.related-info > .view-mode-block_header, .multi.related-info > .pane-content, .box.multi.related-info > .pane-content > .footer {
 	border-color: #2e8540;
+}
+.box.multi.related-info > .pane-title, .box.multi.related-info > .pane-content > .footer {
+	background-color: #2e8540;
+	color: #fff;
+}
+/* @media screen */
+.box .pane-content {
+	font-size: 88.23%;
 }
 .box > .pane-content > :last-child {
 	padding-bottom: 0px;
