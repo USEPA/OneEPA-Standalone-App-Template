@@ -12,7 +12,7 @@ We have taken the first steps in re-writing the OneEPA Standalone Template in or
 As a result of the template containing the bare minimum CSS necessary, we will be working on an approach that highlights CSS snipets required to comply with the EPA Style Guide. For instance, if your application uses a Related Info Box, you will have to add that CSS to your page either via a external css file or inline.
 
 CSS for the Related Info Box that would need to be added:
-
+```css
 .box .pane-content {
 	font-size: 88.23%;
 }
@@ -30,10 +30,10 @@ CSS for the Related Info Box that would need to be added:
 .box > .pane-content > :last-child {
 	padding-bottom: 0px;
 }
-
+```
 In addition, all JavaScript has been removed. This template does not rely on a specific version of jQuery. This should minimize any JavaScript conflicts with application JavaScript. Previous menus that relied on JavaScript have been converted to use CSS only.
 
-#This template is in draft and we are working through several issues. Please do not use this template in production just yet.
+# This template is in draft and we are working through several issues. Please do not use this template in production just yet.
 
 Outstanding issues/items:
 1) Review of concept with the Guild Facilitation Group which includes OWC and the OEI web team.
