@@ -1,5 +1,5 @@
 # DRAFT OneEPA-Standalone-App-Template
-Draft application template to be used with applications.
+Draft application template to be used with web applications.
 
 We have received lots of comments from numerous program offices about upgrading application to the latest OneEPA look and feel.
 Current issues include:
