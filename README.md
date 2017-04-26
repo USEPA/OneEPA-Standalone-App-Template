@@ -9,7 +9,7 @@ Current issues include:
 # What's new with this version of the template?
 We have taken the first steps in re-writing the OneEPA Standalone Template in order to create a specific version for applications. This version contains only the CSS necessary for the header and footer. The CSS is set up in such a way that will minimize conflicts with application specific CSS files.
 
-As a result of the template containing the bare minimum CSS necessary, we will be working on an approach that highlights CSS snippets  required to comply with the EPA Style Guide. For instance, if your application uses a Related Info Box, you will have to add that CSS to your page either via an external extra.css file.
+As a result of the template containing the bare minimum CSS necessary, we will be working on an approach that highlights CSS snippets  required to comply with the EPA Style Guide. For instance, if your application uses a Related Info Box, you will have to add that CSS to your page via an external extra.css file.
 
 CSS for the Related Info Box that would need to be added:
 ```css
