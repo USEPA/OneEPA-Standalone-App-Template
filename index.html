@@ -1,39 +1,41 @@
-<!DOCTYPE html>
-<html class="not-oldie js" dir="ltr" lang="en" version="HTML+RDFa 1.1">
-<head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<!--[if IEMobile 7]><html class="iem7 no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7 no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8 no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9 no-js" lang="en" dir="ltr"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)]><!--><html class="js not-oldie" lang="en" dir="ltr" version="HTML+RDFa 1.1"><!--<![endif]-->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
   <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="ImageToolbar" content="false" />
+  <meta http-equiv="cleartype" content="on" />
   <meta name="HandheldFriendly" content="true" />
   <link rel="shortcut icon" href="https://www.epa.gov/sites/all/themes/epa/favicon.ico" type="image/vnd.microsoft.icon" />
   <meta name="MobileOptimized" content="width" />
-  <meta http-equiv="cleartype" content="on" />
-  <meta http-equiv="ImageToolbar" content="false" />
   <meta name="viewport" content="width=device-width" />
-  <meta name="version" content="20161218" />
   <!--googleon: all-->
   <meta name="DC.description" content="" />
   <meta name="DC.title" content="" />
-	<title>{APPLICATION NAME} | US EPA</title>
   <!--googleoff: snippet-->
   <meta name="keywords" content="" />
-  <link rel="shortlink" href="" />
   <link rel="canonical" href="" />
-  <meta name="DC.creator" content="" />
+  <link rel="shortlink" href="" />
   <meta name="DC.language" content="en" />
   <meta name="DC.Subject.epachannel" content="" />
   <meta name="DC.type" content="" />
+  <meta name="DC.Subject.epaopt" content="" />
   <meta name="DC.date.created" content="" />
   <meta name="DC.date.modified" content="" />
-<!--googleoff: all-->
-
+  <meta name="DC.date.reviewed" content="" />
+  <meta name="DC.creator" content="" />
+	<title>Standalone Template for Applications | US EPA</title>
+  <!--googleoff: all-->
 <link type="text/css" rel="stylesheet" href="css/core/style.css" media="all" />
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src="//www.googletagmanager.com/gtm.js?id="+i+dl;f.parentNode.insertBefore(j,f);})(window,document,"script","dataLayer","GTM-L8ZB");</script>
+  <!-- End Google Tag Manager -->  
 </head>
 <body class="html">
- <!-- Google Tag Manager -->
   <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-L8ZB" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-L8ZB');</script>
-  <!-- End Google Tag Manager -->
-
 	<header class="masthead clearfix" role="banner">
 		<img alt="" class="site-logo" src="https://www.epa.gov/sites/all/themes/epa/logo.png">
 		<div class="site-name-and-slogan">
@@ -43,9 +45,17 @@
 			</div>
 		</div>
 		<div class="region-header">
-			<div class="block block-epa-core block-epa-core-gsa-epa-search" id="block-epa-core-gsa-epa-search">
+			<div class="block-epa-core-gsa-epa-search" id="block-epa-core-gsa-epa-search">
 				<form action="https://search.epa.gov/epasearch/epasearch" class="epa-search" method="get">
-					<label class="element-hidden" for="search-box">Search</label> <input autocomplete="off" class="form-text ui-autocomplete-input" id="search-box" name="querytext" placeholder="Search EPA.gov" value=""><span aria-live="polite" class="ui-helper-hidden-accessible" role="status"></span> <button class="epa-search-button" id="search-button" title="Search" type="submit">Search</button> <input name="areaname" type="hidden" value=""> <input name="areacontacts" type="hidden" value=""> <input name="areasearchurl" type="hidden" value=""> <input name="typeofsearch" type="hidden" value="epa"> <input name="result_template" type="hidden" value="2col.ftl">
+					<label class="element-hidden" for="search-box">Search</label>
+          <input autocomplete="off" class="form-text ui-autocomplete-input" id="search-box" name="querytext" placeholder="Search EPA.gov" value="">
+          <span aria-live="polite" class="ui-helper-hidden-accessible" role="status"></span>
+          <button class="epa-search-button" id="search-button" title="Search" type="submit">Search</button>
+          <input name="areaname" type="hidden" value="">
+          <input name="areacontacts" type="hidden" value="">
+          <input name="areasearchurl" type="hidden" value="">
+          <input name="typeofsearch" type="hidden" value="epa">
+          <input name="result_template" type="hidden" value="2col.ftl">
 				</form>
 			</div>
 		</div>
@@ -55,14 +65,11 @@
 			<h2 class="element-invisible">Main menu</h2>
 			<ul class="menu" role="menu">
 				<li class="expanded active-trail menu-item" role="presentation">
-					<a class="active-trail menu-link" href="https://www.epa.gov/environmental-topics" role="menuitem" title="View links to the most popular pages for each of EPA’s top environmental topics.">Environmental Topics</a>
-				</li>
+					<a class="active-trail menu-link" href="/environmental-topics" role="menuitem" title="View links to the most popular pages for each of EPA?s top environmental topics.">Environmental Topics</a></li>
 				<li class="menu-item" role="presentation">
-					<a class="menu-link" href="https://www.epa.gov/laws-regulations" role="menuitem" title="View links to regulatory information by topic and sector, and to top pages about environmental laws, regulations, policies, compliance, and enforcement.">Laws &amp; Regulations</a>
-				</li>
+					<a class="menu-link" href="/laws-regulations" role="menuitem" title="View links to regulatory information by topic and sector, and to top pages about environmental laws, regulations, policies, compliance, and enforcement.">Laws &amp; Regulations</a></li>
 				<li class="expanded menu-item" role="presentation">
-					<a class="menu-link" href="https://www.epa.gov/aboutepa" role="menuitem" title="Learn more about our mission, organization, and locations.">About EPA</a>
-				</li>
+					<a class="menu-link" href="/aboutepa" role="menuitem" title="Learn more about our mission, organization, and locations.">About EPA</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -70,9 +77,9 @@
 		<div class="mobile-bar clearfix">
 			<label class="menu-button" for="mobile-nav-toggle">Menu</label>
 		</div><input checked id="mobile-nav-toggle" type="checkbox">
-		<div class="mobile-links element-hidden" id="mobile-links" style="height: 2404px;">
+		<div class="mobile-links element-hidden" id="mobile-links" style="height:2404px;">
 			<ul class="mobile-menu">
-				<li class="expanded menu-item"><a class="menu-link" href="/environmental-topics" tabindex="-1" title="View links to the most popular pages for each of EPA’s top environmental topics.">Environmental Topics</a></li>
+				<li class="expanded menu-item"><a class="menu-link" href="/environmental-topics" tabindex="-1" title="View links to the most popular pages for each of EPA?s top environmental topics.">Environmental Topics</a></li>
 				<li class="menu-item"><a class="menu-link" href="/laws-regulations" tabindex="-1" title="View links to regulatory information by topic and sector, and to top pages about environmental laws, regulations, policies, compliance, and enforcement.">Laws &amp; Regulations</a></li>
 				<li class="expanded menu-item"><a class="menu-link" href="/aboutepa" tabindex="-1" title="Learn more about our mission, organization, and locations.">About EPA</a></li>
 			</ul>
@@ -80,11 +87,11 @@
 	</div>
 	<section class="main-content clearfix" id="main-content" lang="en" role="main" tabindex="-1">
 		<div class="region-preface clearfix">
-			<div class="block block-views block-views-revision-hublinks-block" id="block-views-revision-hublinks-block">
-				<div class="view view-revision-hublinks view-id-revision_hublinks view-display-id-block view-dom-id-7da92609852e491a02b877269466d61b">
+			<div class="block-views-revision-hublinks-block" id="block-views-revision-hublinks-block">
+				<div class="view view-revision-hublinks view-id-revision_hublinks">
 					<span class="related-info"><strong>Related Topics:</strong></span>
 					<ul class="menu pipeline">
-						<li class="menu-item"><a href="/">{Link to related Webarea}</a></li>
+						<li class="menu-item"><a href="/environmental-topics">Environmental Topics</a></li>
 					</ul>
 				</div>
 			</div>
@@ -105,29 +112,22 @@
 				</ul>
 			</div>
 		</div>
-		
-<div class="main-column clearfix">
-<!--googleon: all-->
-      <h1 class="page-title">{PAGE TITLE}</h1>
-      <div class="panel-pane pane-node-content" >
+    <div class="main-column clearfix">
+      <!--googleon:all-->
+      <h1  class="page-title">Drupal WebCMS Release Notes</h1>
+      <div class="panel-pane pane-node-content">
         <div class="pane-content">
           <div class="node node-page clearfix view-mode-full">
-            {PAGE CONTENT}
+            <p>Below are the "Release Notes" for Drupal WebCMS code updates. We update the WebCMS at least once a quarter with bug fixes and enhancements. If you have a feature you would like to see, please see the <a href="/drupaltraining/forms/featureenhancement-suggestions-drupal-webcms">Drupal WebCMS Feature Request page</a>.</p>
           </div>
         </div>
       </div>
-      <div id="block-epa-og-footer" class="block block-epa-og">
-        <p>{FOOTER CONTENT}</p>
-      </div>
-<!--googleoff: all-->
-</div>
-
-	
+    </div>
 	</section>
 	<footer class="main-footer clearfix" role="contentinfo">
 		<div class="main-footer__inner">
 			<div class="region-footer">
-				<div class="block block-pane block-pane-epa-global-footer" id="block-pane-epa-global-footer">
+				<div class="block-pane-epa-global-footer" id="block-pane-epa-global-footer">
 					<div class="row cols-3">
 						<div class="col size-1of3">
 							<div class="col__title">
@@ -180,7 +180,7 @@
 								<li><a class="menu-link social-flickr" href="https://www.flickr.com/photos/usepagov">Flickr</a></li>
 								<li><a class="menu-link social-instagram" href="https://www.instagram.com/epagov">Instagram</a></li>
 							</ul>
-							<p class="last-updated">Last updated on {LAST UPDATED DATE}</p>
+							<p class="last-updated">Last updated on {Month day, YYYY}</p>
 						</div>
 					</div>
 				</div>
