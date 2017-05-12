@@ -75,5 +75,5 @@ Outstanding issues/items:
 1) Review of concept with the Guild Facilitation Group which includes OWC and the OEI web team.
 2) Provide a list of relevant css snippets based on the EPA Style Guide
 3) Resolve print view
-4) Add forsee code
-5) Add capability for sitewide notices
+~~4) Add forsee code~~
+~~5) Add capability for sitewide notices~~
