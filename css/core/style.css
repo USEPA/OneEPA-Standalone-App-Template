@@ -1,4 +1,396 @@
-	@media screen {
+/**
+ * @file
+ * Typography styles.
+ *
+ * Baseline Grid: 1.5em (25.5px)
+ */
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url("fonts/sourcesanspro-light-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/sourcesanspro-light-webfont.woff2") format("woff2"),
+    url("fonts/sourcesanspro-light-webfont.woff") format("woff"),
+    url("fonts/sourcesanspro-light-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("fonts/sourcesanspro-regular-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/sourcesanspro-regular-webfont.woff2") format("woff2"),
+    url("fonts/sourcesanspro-regular-webfont.woff") format("woff"),
+    url("fonts/sourcesanspro-regular-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url("fonts/sourcesanspro-italic-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/sourcesanspro-italic-webfont.woff2") format("woff2"),
+    url("fonts/sourcesanspro-italic-webfont.woff") format("woff"),
+    url("fonts/sourcesanspro-italic-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url("fonts/sourcesanspro-bold-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/sourcesanspro-bold-webfont.woff2") format("woff2"),
+    url("fonts/sourcesanspro-bold-webfont.woff") format("woff"),
+    url("fonts/sourcesanspro-bold-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url("fonts/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/merriweather-light-webfont.woff2") format("woff2"),
+    url("fonts/merriweather-light-webfont.woff") format("woff"),
+    url("fonts/merriweather-light-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("fonts/merriweather-regular-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/merriweather-regular-webfont.woff2") format("woff2"),
+    url("fonts/merriweather-regular-webfont.woff") format("woff"),
+    url("fonts/merriweather-regular-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url("fonts/merriweather-italic-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/merriweather-italic-webfont.woff2") format("woff2"),
+    url("fonts/merriweather-italic-webfont.woff") format("woff"),
+    url("fonts/merriweather-italic-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url("fonts/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/merriweather-bold-webfont.woff2") format("woff2"),
+    url("fonts/merriweather-bold-webfont.woff") format("woff"),
+    url("fonts/merriweather-bold-webfont.ttf") format("truetype");
+}
+
+/** Generic Screen Typography *************************************************/
+@media screen {
+  html {
+    font-size: 106.25%;
+  }
+
+  body,
+  button,
+  input,
+  select,
+  textarea {
+    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  }
+  body {
+    font-size: 100%;
+    line-height: 1.5;
+  }
+  aside .pane-content {
+    font-size: 88.2353%;
+  }
+
+  code,
+  kbd,
+  pre,
+  samp {
+    font-family: "Source Code Pro", "Consolas", monospace, sans-serif;
+    font-size: 1em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  legend,
+  caption {
+    font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    padding: 0 0 0.5em;
+  }
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a {
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 235.2941%;
+  }
+  .page-title {
+    padding-top: 0.25em;
+  }
+  .page-title--news-release-secondary {
+    font-weight: normal;
+    font-style: italic;
+  }
+  h2 {
+    font-size: 176.4706%;
+  }
+  h3 {
+    font-size: 117.6471%;
+  }
+  h4 {
+    font-size: 100%;
+  }
+  h5 {
+    font-size: 88.2353%;
+  }
+  h6 {
+    font-size: 76.4706%;
+  }
+
+  abbr[title] {
+    text-decoration: dotted underline;
+  }
+
+  .box .pane-content {
+    font-size: 88.2353%;
+  }
+
+  h2.preface {
+    padding-top: 0.625em;
+  }
+
+  .teaser-title {
+    font-size: 100% !important;
+    padding-bottom: 0.25em !important;
+  }
+
+  dd,
+  ol,
+  p,
+  ul,
+  .fieldset-description,
+  .form-actions,
+  .form-item,
+  .pane-content > .node,
+  .node-teaser,
+  .view-mode-teaser:not(.file),
+  .view-mode-teaser2,
+  .view-mode-title2,
+  ul.accordion ul {
+    margin: 0;
+    padding-bottom: 1.5em;
+    word-wrap: break-word;
+  }
+
+  div.links,
+  .box,
+  .panel-pane,
+  .progress,
+  .region-sidebar > .block,
+  .view-mode-title {
+    margin-bottom: 1.5em;
+  }
+
+  ul {
+    padding-left: 1.2em; /* LTR */
+  }
+  dd,
+  ol {
+    padding-left: 1.5em; /* LTR */
+  }
+  ol ol {
+    list-style-type: lower-alpha;
+  }
+  ol ol ol {
+    list-style-type: lower-roman;
+  }
+  div.indented,
+  p.indented {
+    margin-left: 1.5em;
+  }
+  ol li:last-child p:last-child,
+  ol ol,
+  ol ul,
+  p:empty,
+  ul li:last-child p:last-child,
+  ul ol,
+  ul ul,
+  .form-checkboxes .form-item,
+  .form-radios .form-item,
+  .pane-content > .view-mode-title > h3,
+  .pane-content > .node > :last-child,
+  .pane-content > :last-child,
+  ul.accordion ul ul {
+    padding-bottom: 0;
+  }
+
+  sub,
+  sup {
+    font-size: 76.4706%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sup {
+    top: -.5em;
+  }
+  sub {
+    bottom: -.25em;
+  }
+
+  fieldset {
+    margin: 0 2px 1.5em;
+    padding: .35em 1em .75em;
+  }
+  .fieldset-wrapper div:last-child {
+    padding-bottom: 0;
+  }
+  .fieldset-description {
+    font-style: italic;
+  }
+
+  figcaption,
+  small,
+  .archive,
+  .block-user .item-list,
+  .comment-links,
+  .figcaption,
+  .filter-help,
+  .form-item .description,
+  .more-link,
+  .node-links,
+  .progress .message,
+  .progress .percentage,
+  .search-results .search-info,
+  .submitted,
+  .vertical-tab-button .summary,
+  #block-epa-og-footer {
+    font-size: 76.4706%;
+  }
+
+  .node-links,
+  .comment-links {
+    margin-bottom: 1.5em;
+  }
+}
+
+/** Print Typography **********************************************************/
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    -ms-filter: none !important;
+    filter: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    color: #444 !important;
+  }
+
+  /*
+  .main-content a[href]:after {
+    content: ' (' attr(href) ') ';
+    display: inline-block;
+    font-size: 10pt;
+    font-weight: normal;
+    margin-left: 3pt;
+  }
+
+  .main-content a[href^='/']:after {
+    content: ' (http://www.epa.gov' attr(href) ') ';
+  }
+
+  a[href^='javascript:']:after,
+  a[href^='#']:after,
+  .user-picture > a[href]:after,
+  a.username[href]:after,
+  .comment-title a[href]:after,
+  .field-type-taxonomy-term-reference a[href]:after {
+    content: '' !important;
+  }
+  */
+
+  abbr[title]:after {
+    content: ' (' attr(title) ')';
+  }
+
+  blockquote,
+  pre {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  img,
+  tr {
+    page-break-inside: avoid;
+  }
+
+  h1 a:after,
+  h2 a:after,
+  h3 a:after,
+  h4 a:after,
+  h5 a:after,
+  h6 a:after {
+    display: inline-block;
+  }
+
+  h2,
+  h3,
+  h4,
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3,
+  h4 {
+    page-break-after: avoid;
+  }
+
+  #comments {
+    page-break-before: always;
+  }
+}
+
+
+  @media screen {
 		html {
 			font-size: 106.25%;
 		}
