@@ -72,7 +72,7 @@ Finally, we need to provide a roadmap for updating this template and stick to it
 # This template is in draft and we are working through several issues. Please do not use this template in production just yet.
 
 Outstanding issues/items:
-1. Review of concept with the Guild Facilitation Group which includes OWC and the OEI web team.
+1. ~~Review of concept with the Guild Facilitation Group which includes OWC and the OEI web team.~~
 2. Provide a list of relevant css snippets based on the EPA Style Guide
   * boxes
   * tables
@@ -80,6 +80,12 @@ Outstanding issues/items:
   * tabs
   * forms
   * lists
-3. Resolve print view
-4. ~~Add forsee code~~
-5. ~~Add capability for sitewide notices~~
+3. Required styling
+  * Typeface
+  * Colors
+  * Disclaimers
+  * ~~Global header~~
+  * ~~Global footer~~
+4. Resolve print view
+5. ~~Add forsee code~~
+6. ~~Add capability for sitewide notices~~
