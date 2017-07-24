@@ -83,9 +83,9 @@ Outstanding issues/items:
   * forms
   * lists
 3. Required styling
-  * Typeface
+  * ~~Typeface~~
   * Colors
-  * Disclaimers
+  * ~~Disclaimers~~
   * ~~Global header~~
   * ~~Global footer~~
 4. Resolve print view
