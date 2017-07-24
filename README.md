@@ -78,10 +78,10 @@ Outstanding issues/items:
 2. Provide a list of relevant css snippets based on the EPA Style Guide
   * boxes
   * ~~tables~~
-  * accordions
+  * ~~accordions~~
   * tabs
   * forms
-  * lists
+  * ~~list~~ part of typography
 3. Required styling
   * ~~Typeface~~
   * Colors
