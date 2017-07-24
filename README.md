@@ -13,17 +13,6 @@ As a result of the template containing the bare minimum CSS necessary, we will b
 
 CSS for the Related Info Box that would need to be added:
 ```css
-h1, h2, h3, h4, h5, h6, legend, caption {
-	font-family: "Merriweather","Georgia","Cambria","Times New Roman","Times",serif;
-	font-weight: bold;
-	line-height: 1.3;
-	margin: 0;
-	text-rendering: optimizeLegibility;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	padding: 0 0 0.5em;
-}
 .box > .pane-title {
 	border: 1px solid #5b616b;
 	border-bottom: 0;
