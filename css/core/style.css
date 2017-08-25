@@ -491,8 +491,6 @@
 			position: absolute;
 			right: 0px;
 		}
-	}
-	@media screen and (min-width:65em) {
 		.js header .epa-search {
 			bottom: -2.29em;
 		}
@@ -524,8 +522,8 @@
 		padding: 0.2647058824em 2.8235294118em 0.2647058824em 0.6470588235em;
 		width: 100%
 	}
-	@media screen and (min-width:61em) {
-		.js header .epa-search>.form-text {
+	@media screen and (min-width:65em) {
+		.js header .epa-search > .form-text {
 			border-color: #fff;
 		}
 	}
@@ -586,7 +584,7 @@
 			top: 0px;
 		}
 	}
-	@media screen and (min-width:61em) {
+	@media screen and (min-width:65em) {
 		header .epa-search-button {
 			right: 16px;
 		}
