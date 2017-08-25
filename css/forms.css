@@ -26,8 +26,8 @@
   padding: 0.5294117647em 0.6470588235em;
 }
 .form-select {
-  background-image: url(../img/arrow-alt-down.png);
-  background-image: url(../img/svg/arrow-alt-down.svg);
+  background-image: url(https://www.epa.gov/sites/all/themes/epa/img/arrow-alt-down.png);
+  background-image: url(https://www.epa.gov/sites/all/themes/epa/img/svg/arrow-alt-down.svg);
   background-position: right 0.7647058824em center;
   background-repeat: no-repeat;
   background-size: 0.7647058824em;
@@ -81,8 +81,8 @@ input[type='radio']:checked + label:before {
   box-shadow: 0 0 0 1px #0071bc;
 }
 input[type='checkbox']:checked + label:before {
-  background-image: url(../img/correct.png);
-  background-image: url(../img/svg/correct.svg);
+  background-image: url(https://www.epa.gov/sites/all/themes/epa/img/correct.png);
+  background-image: url(https://www.epa.gov/sites/all/themes/epa/img/svg/correct.svg);
   background-position: 50%;
   background-repeat: no-repeat;
 }
@@ -137,7 +137,7 @@ input[type='radio']:disabled + label:before {
   top: 0;
 }
 .govdelivery-legend:before {
-  background: url(../img/govdelivery.png) no-repeat 50% 50%;
+  background: url(https://www.epa.gov/sites/all/themes/epa/img/govdelivery.png) no-repeat 50% 50%;
   content: '';
   display: block;
   height: 1.4117647059em;
