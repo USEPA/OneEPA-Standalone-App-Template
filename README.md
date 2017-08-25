@@ -68,8 +68,8 @@ Outstanding issues/items:
   * boxes
   * ~~tables~~
   * ~~accordions~~
-  * tabs
-  * forms
+  * ~~tabs~~
+  * ~~forms~~
   * ~~list~~ part of typography
 3. Required styling
   * ~~Typeface~~
