@@ -134,19 +134,19 @@
     font-weight: normal;
     font-style: italic;
   }
-  h2 {
+  h2,aside.size-1of4 h1 {
     font-size: 176.4706%;
   }
-  h3 {
+  h3,aside.size-1of4 h2 {
     font-size: 117.6471%;
   }
-  h4 {
+  h4,aside.size-1of4 h3 {
     font-size: 100%;
   }
-  h5 {
+  h5,aside.size-1of4 h4 {
     font-size: 88.2353%;
   }
-  h6 {
+  h6,aside.size-1of4 h5 {
     font-size: 76.4706%;
   }
 
