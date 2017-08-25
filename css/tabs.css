@@ -1,4 +1,4 @@
-/** Menus *********************************************************************/
+/** Tabs *********************************************************************/
 .tabs > li > a,
 .tabs > li > a:visited {
   background-color: #d6d7d9;
@@ -63,6 +63,12 @@
 .tabs > li > a:focus,
 .tabs > li > a:hover {
   border-color: #aeb0b5;
+}
+.tabs > li:first-child > a {
+  border-radius: 3px 3px 0 0;
+}
+.tabs > li:last-child > a,
+  border-radius: 0 0 3px 3px;
 }
 
 /* vertical tabs */
