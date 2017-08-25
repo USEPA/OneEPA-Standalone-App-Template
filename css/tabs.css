@@ -67,7 +67,7 @@
 .tabs > li:first-child > a {
   border-radius: 3px 3px 0 0;
 }
-.tabs > li:last-child > a,
+.tabs > li:last-child > a {
   border-radius: 0 0 3px 3px;
 }
 
