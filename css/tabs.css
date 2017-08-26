@@ -12,34 +12,36 @@
   .tabs > li > a,
   .tabs > li > a:visited {
     margin: 0 0 .5em;
-}
-.tabs > li > a:hover,
-.tabs > li > a:focus,
-.tabs > li > a:active {
-  background-color: #aeb0b5;
-  box-shadow: none;
-  color: #212121;
-  outline: 0;
-  text-decoration: none;
-}
-.tabs > li.active > a,
-.tabs > li.active > a:hover {
-  background-color: #212121;
-  color: #fff;
-}
-.tabs > li.active > a:focus {
-  background-color: #323a45;
-}
-.tabs > li.active > a:hover {
-  cursor: default;
+  }
+  .tabs > li > a:hover,
+  .tabs > li > a:focus,
+  .tabs > li > a:active {
+    background-color: #aeb0b5;
+    box-shadow: none;
+    color: #212121;
+    outline: 0;
+    text-decoration: none;
+  }
+  .tabs > li.active > a,
+  .tabs > li.active > a:hover {
+    background-color: #212121;
+    color: #fff;
+  }
+  .tabs > li.active > a:focus {
+    background-color: #323a45;
+  }
+  .tabs > li.active > a:hover {
+    cursor: default;
+  }
+
+  .tabs {
+    margin-bottom: 1.5em;
+  }
+  .tabs > li > a > br {
+    display: none;
+  }
 }
 
-.tabs {
-  margin-bottom: 1.5em;
-}
-.tabs > li > a > br {
-  display: none;
-}
 @media screen and (min-width: 30em) {
   .tabs {
     margin-bottom: 1em;
