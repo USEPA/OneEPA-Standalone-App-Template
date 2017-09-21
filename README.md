@@ -1,23 +1,22 @@
 # DRAFT OneEPA-Standalone-App-Template
-Draft application template to be used with web applications.
+Draft application template for applications on epa.gov.
 
-We have received lots of comments from numerous program offices about upgrading application to the latest OneEPA look and feel.
-Current issues include:
+We have received lots of comments from numerous program offices about upgrading application to the latest OneEPA look and feel. Current issues include:
 1) Constant changes leading to added cost that cannot easily by budgeted for.
 2) Numerous issues with the template conflicting with application CSS and JavaScript.
 
 ## What's new with this version of the template?
-We have taken the first steps in re-writing the OneEPA Standalone Template in order to create a specific version for applications. This version contains only the CSS necessary for the header and footer. The CSS is set up in such a way that will minimize conflicts with application specific CSS files.
+We have taken steps in re-writing the One EPA Standalone Template to create a lighter version for applications. This version contains only the CSS and HTML necessary for the header and footer, minimizing conflicts with application-specific CSS files.
 
-As a result of the template containing the bare minimum CSS necessary, we will be working on an approach that highlights CSS snippets required to comply with the EPA Style Guide. For instance, if your application uses a Related Info Box, you will have to add that CSS for boxes to your application via an external extra CSS file.
+If you want to reuse well-definied styles, you can: we offer CSS files that style additional HTML elements. For instance, if your application uses a Related Info Box, you can add that CSS to your application via an external extra CSS file.
 
-In addition, all JavaScript has been removed. This template does not rely on any version of jQuery. This change should minimize any conflicts with your application JavaScript. Previous menus that relied on JavaScript have been converted to use CSS only.
+In addition, all JavaScript has been removed. This template does not rely on any version of jQuery or any other JS file, further minimizing conflicts with the JavaScript you use in your application. The dropdown menu for the Channel navigation (in the header) has been converted to use CSS only.
 
-Finally, we need to provide a roadmap for updating this template and stick to it so that we minimize constant and unexpected updates. There will be a commitment to keep changes to this template to a minimum.
+Finally, we provide a roadmap for updating this template to reduce constant and unexpected updates. OEI will make a commitment to keep changes to this template to a minimum.
 
-# This template is in draft and we are working through several issues.
+# This template is in draft as we work through several issues.
 
-Please do not use this template in production just yet.
+Please do not use this template in production. If you test it, please let us know of issues via the Github issue tracker.
 
 Outstanding issues/items:
 1. ~~Review of concept with the Guild Facilitation Group which includes OWC and the OEI web team.~~
