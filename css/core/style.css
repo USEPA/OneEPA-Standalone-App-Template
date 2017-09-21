@@ -373,11 +373,7 @@
 		box-sizing: border-box;
 		*behavior: url('https://www.epa.gov/sites/all/themes/epa/inc/boxsizing.htc');
 	}
-	header *, nav *, section *, footer * {
-		-moz-transition: background-color .25s linear, border-color .25s linear, -moz-box-shadow .25s linear, box-shadow .25s linear, color .25s linear, opacity .25s linear, text-shadow .25s linear, -moz-transform .25s linear;
-		-ms-transition: background-color .25s linear, border-color .25s linear, -ms-box-shadow .25s linear, box-shadow .25s linear, color .25s linear, opacity .25s linear, text-shadow .25s linear, -ms-transform .25s linear;
-		-o-transition: background-color .25s linear, border-color .25s linear, -o-box-shadow .25s linear, box-shadow .25s linear, color .25s linear, opacity .25s linear, text-shadow .25s linear, -o-transform .25s linear;
-		-webkit-transition: background-color .25s linear, border-color .25s linear, -webkit-box-shadow .25s linear, box-shadow .25s linear, color .25s linear, opacity .25s linear, text-shadow .25s linear, -webkit-transform .25s linear;
+	.menu-link, .epa-search-button, .menu-button, .mobile-links a {
 		transition: background-color .25s linear, border-color .25s linear, box-shadow .25s linear, color .25s linear, opacity .25s linear, text-shadow .25s linear, transform .25s linear
 	}
 
