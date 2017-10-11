@@ -16,7 +16,7 @@ Finally, we provide a roadmap for updating this template to reduce constant and 
 
 # This template is in draft as we work through several issues.
 
-Please do not use this template in production. If you test it, please let us know of issues via the Github issue tracker.
+If you test it, please let us know of issues via the Github issue tracker.
 
 Outstanding issues/items:
 1. ~~Review of concept with the Guild Facilitation Group which includes OWC and the OEI web team.~~
