@@ -784,6 +784,16 @@
 		padding: 1.2em 1.6em;
 		text-decoration: none
 	}
+.main-nav > .nav__inner > .menu > .menu-item > .active {
+  background-color: #205493;
+}
+.main-nav > .nav__inner > .menu > .menu-item > .menu-link:focus,
+.main-nav > .nav__inner > .menu > .menu-item > .menu-link:hover,
+.main-nav > .nav__inner > .menu > .menu-item:hover > .menu-link,
+.main-nav > .nav__inner > .menu > .show-menu > .menu-link {
+  background-color: #205493;
+  box-shadow: none;
+}
 	@media screen and (min-width:46em) {
 		nav.main-nav>.nav__inner>.menu>.menu-item>.menu-link {
 			font-size: 88.23%;
