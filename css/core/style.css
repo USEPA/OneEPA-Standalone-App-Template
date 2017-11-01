@@ -365,7 +365,6 @@
 	@media screen {
 		body, header, nav, section, footer {
 			font-size: 100%;
-			line-height: 1;
 			margin: 0;
 		}
 	}
