@@ -26,14 +26,14 @@ Outstanding issues/items:
   * ~~accordions~~
   * ~~tabs~~
   * ~~forms~~
-  * ~~list~~ part of typography
+  * ~~list~~ (part of typography)
 3. Required styling
   * ~~Typeface~~
   * Colors
   * ~~Disclaimers~~
   * ~~Global header~~
   * ~~Global footer~~
-4. Resolve print view
+4. Resolve print view (in progress)
 5. ~~Add forsee code~~
 6. ~~Add capability for sitewide notices~~
 
