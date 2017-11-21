@@ -21,7 +21,7 @@ If you test it, please let us know of issues via the Github issue tracker.
 Outstanding issues/items:
 1. ~~Review of concept with the Guild Facilitation Group which includes OWC and the OEI web team.~~
 2. Provide a list of relevant css snippets based on the EPA Style Guide
-  * boxes
+  * ~~boxes~~
   * ~~tables~~
   * ~~accordions~~
   * ~~tabs~~
