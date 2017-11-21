@@ -356,6 +356,80 @@
   }
 }
 
+/** Print Layout **************************************************************/
+@media print {
+  nav,
+  .epa-search,
+  .breadcrumb,
+  .breadcrumb-title,
+  .block-epa-core-gsa-epa-search,
+  .block-menu,
+  .block-menu-block,
+  .block-search,
+  .block-user,
+  .col__title,
+  .comment-form,
+  .govdelivery-form,
+  .links,
+  .menu,
+  .microsite-aside,
+  .microsite-name,
+  .mobile-nav,
+  .no-print,
+  .node-links,
+  .region-preface,
+  .site-name-and-slogan,
+  .social-menu,
+  .submitted .permalink,
+  .pagetop,
+  .tasks,
+  #block-epa-accessibility-quail-results,
+  #block-epa-workflow-revision-info-block,
+  #block-comment-recent,
+  #block-forum-active,
+  #block-forum-new,
+  #block-node-recent,
+  #block-node-syndicate,
+  footer .pipeline,
+  #show-admin-info-wrapper,
+  .social-menu-wrapper,
+  .social-menu-title,
+  .social-menu-more,
+  .web-area-footer,
+  #block-pane-epa-web-area-footer {
+    display: none !important;
+  }
+
+  .masthead,
+  .main-content,
+  .main-nav,
+  .secondary-nav,
+  .main-footer {
+    width: 100%;
+  }
+
+  .site-logo {
+    display: block;
+    margin-bottom: 1em;
+  }
+
+  .microsite-name,
+  .page-title {
+    margin-top: -10px;
+    padding: 0;
+  }
+
+  .main-footer .region-footer {
+    background: transparent;
+    min-height: auto;
+    padding-top: 0;
+  }
+
+  .block-pane-epa-global-footer .row > .col {
+    width: 100%;
+  }
+}
+
 	html {
 		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		-ms-text-size-adjust: 100%;
