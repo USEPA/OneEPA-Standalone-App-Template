@@ -593,6 +593,10 @@
 	header .element-hidden {
 		display: none
 	}
+  .element-invisible.element-focusable:active, .element-invisible.element-focusable:focus {
+    clip: auto;
+    position: static!important;
+  }
 	header .form-select, header .form-text, header .form-textarea {
 		-moz-appearance: none;
 		-webkit-appearance: none;
