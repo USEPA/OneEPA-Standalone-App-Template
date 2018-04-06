@@ -450,7 +450,31 @@
 	}
 
 /** EPA Global Header *************************************************/
-	header {
+  .skip-links {
+    font-size: 16px;
+    left: 50%;
+    margin-left: -7em;
+    position: absolute;
+    width: 14em;
+    z-index: 9999;
+  }
+  .skip-link, .skip-link:focus, .skip-link:visited {
+    background-color: #212121;
+    border: 2px solid #f1f1f1;
+    border-top: 0;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+    color: #f1f1f1;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 14em;
+    z-index: 9999;
+  }
+  header {
 		display: block
 	}
 	header {
