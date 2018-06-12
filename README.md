@@ -17,16 +17,3 @@ Finally, we provide a roadmap for updating this template to reduce constant and 
 ## This template is nearly out of draft
 
 If you test this template, please let us know of issues via the Github issue tracker.
-
-## Colors
-
-```
- * Aqua #02bfe7     Darkest Aqua #046b99    Dark Aqua #00a6d2     Light Aqua #9bdaf1      Lightest Aqua #e1f3f8
- * Base #212121
- * Blue #0071bc     Darkest Blue #112e51    Dark Blue #205493
- * Gold #fdb81e     Light Gold #f9c642      Lighter Gold #fad980
- * Gray #5b616b     Dark Gray #323a45       Light Gray #aeb0b5    Lighter Gray #d6d7d9    Lightest Gray #f1f1f1
- * Green #2e8540    Light Green #4aa564     Lighter Green #94bfa2 Lightest Green #e7f4e4
- * Red #e31c3d      Darkest Red #981b1e
- * White #fff       Dark Warm Gray #494440  Light Warm Gray #e4e2e0
-```
