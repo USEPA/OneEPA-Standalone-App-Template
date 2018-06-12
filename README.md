@@ -8,34 +8,15 @@ We have received lots of comments from numerous program offices about upgrading 
 ## What's new with this version of the template?
 We have taken steps in re-writing the One EPA Standalone Template to create a lighter version for applications. This version contains only the CSS and HTML necessary for the header and footer, minimizing conflicts with application-specific CSS files.
 
-If you want to reuse well-definied styles, you can: we offer CSS files that style additional HTML elements. For instance, if your application uses a Related Info Box, you can add that CSS to your application via an external extra CSS file.
+If you want to reuse well-definied styles, you can: we offer CSS files that style additional HTML elements. For instance, if your application uses a Related Info Box, you can add that CSS to your application via an additional CSS file. Same for alerts, which your application should be outputting on its own.
 
-In addition, all JavaScript has been removed. This template does not rely on any version of jQuery or any other JS file, further minimizing conflicts with the JavaScript you use in your application. The dropdown menu for the Channel navigation (in the header) has been converted to use CSS only.
+In addition, all JavaScript has been removed. This template does not rely on any version of jQuery or any other JS file, further minimizing conflicts with the JavaScript you use in your application. The menu for the Channel navigation (in the blue bar of the header) has been converted to be CSS only.
 
 Finally, we provide a roadmap for updating this template to reduce constant and unexpected updates. OEI will make a commitment to keep changes to this template to a minimum.
 
 # This template is in draft as we work through several issues.
 
-If you test it, please let us know of issues via the Github issue tracker.
-
-Outstanding issues/items:
-1. ~~Review of concept with the Guild Facilitation Group which includes OWC and the OEI web team.~~
-2. Provide a list of relevant css snippets based on the EPA Style Guide
-  * ~~boxes~~
-  * ~~tables~~
-  * ~~accordions~~
-  * ~~tabs~~
-  * ~~forms~~
-  * ~~list~~ (part of typography)
-3. Required styling
-  * ~~Typeface~~
-  * Colors
-  * ~~Disclaimers~~
-  * ~~Global header~~
-  * ~~Global footer~~
-4. Resolve print view (in progress)
-5. ~~Add forsee code~~
-6. ~~Add capability for sitewide notices~~
+If you test this template, please let us know of issues via the Github issue tracker.
 
 ## Colors
 
