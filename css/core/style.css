@@ -1500,3 +1500,124 @@
 			display: block;
 		}
 	}
+
+/** Public Alerts *************************************************************/
+.block-alert .alert-title,
+.sitewide-alert__title {
+  display: none;
+}
+
+.sitewide-alert {
+  background: #fff1d0;
+  color: #000;
+}
+
+.sitewide-alert a {
+  color: #0071bc;
+  text-decoration: none;
+}
+
+.sitewide-alert a:focus,
+.sitewide-alert a:hover {
+  text-decoration: underline;
+}
+
+.sitewide-alert__content {
+  font-size: 70.5882%;
+  margin: 0 auto;
+  max-width: 35rem;
+  padding: 0.5em 6.5em 0.5em 3.66667em;
+  position: relative;
+}
+
+@media screen and (min-width: 35em), print and (min-width: 35em) {
+  .sitewide-alert__content {
+    max-width: 60rem;
+  }
+}
+
+.wide-template .sitewide-alert__content {
+  max-width: 100%;
+}
+
+.sitewide-alert__content > :last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.sitewide-alert__content::before {
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  display: block;
+  height: 1.25em;
+  margin: 0.125em 0 0 -2.25em;
+  position: absolute;
+  width: 2.25em;
+}
+
+.sitewide-alert__close {
+  align-items: center;
+  background: none;
+  color: inherit;
+  display: flex;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 1rem;
+}
+
+.sitewide-alert__close:focus,
+.sitewide-alert__close:hover {
+  background: none;
+}
+
+.sitewide-alert__close::after {
+  background-image: url(https://www.epa.gov/sites/all/themes/epa/img/svg/close.svg);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  font-size: 83.33333%;
+  height: 1.2em;
+  margin: 0 0 0 0.6em;
+  width: 1em;
+}
+
+.sitewide-alert--emergency {
+  background: #ffecec;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.sitewide-alert--emergency .sitewide-alert__content::before {
+  background-image: url(https://www.epa.gov/sites/all/themes/epa/img/error.png);
+}
+
+.sitewide-alert--information {
+  background: #e1f3ff;
+}
+
+.sitewide-alert--information .sitewide-alert__content::before {
+  background-image: url(https://www.epa.gov/sites/all/themes/epa/img/info.png);
+}
+
+.sitewide-alert--warning {
+  background: #fff1d2;
+}
+
+.sitewide-alert--warning .sitewide-alert__content::before {
+  background-image: url(https://www.epa.gov/sites/all/themes/epa/img/warning.png);
+}
+
+.sitewide-alert--official {
+  background: #f1f1f1;
+}
+
+.sitewide-alert--official .sitewide-alert__content::before {
+  background-image: url(https://www.epa.gov/sites/all/themes/epa/img/us-flag.png);
+}
