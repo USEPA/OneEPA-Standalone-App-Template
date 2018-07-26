@@ -72,7 +72,7 @@ fluidPage(
        </div>
        </div>
        <div class='main-column clearfix'><!--googleon:all-->
-  <h1  class='page-title'>Drupal WebCMS Release Notes</h1>
+  <h1  class='page-title'>[Page Title]</h1>
        <div class='panel-pane pane-node-content'>
        <div class='pane-content'>
        <div class='node node-page clearfix view-mode-full'>"),
