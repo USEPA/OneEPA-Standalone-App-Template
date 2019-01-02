@@ -16,4 +16,4 @@ Finally, we provide a roadmap for updating this template to reduce constant and 
 
 ## Contact
 
-If you test this template, please let us know of issues via the Github issue tracker.
+If you use this template, please let us know of issues via the Github issue tracker.
