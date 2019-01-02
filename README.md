@@ -14,6 +14,6 @@ In addition, all JavaScript has been removed. This template does not rely on any
 
 Finally, we provide a roadmap for updating this template to reduce constant and unexpected updates. OEI will make a commitment to keep changes to this template to a minimum.
 
-## This template is nearly out of draft
+## Contact
 
 If you test this template, please let us know of issues via the Github issue tracker.
