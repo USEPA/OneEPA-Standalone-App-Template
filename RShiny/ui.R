@@ -6,7 +6,7 @@ fluidPage(
   HTML("<header class='masthead clearfix' role='banner'>
   <img alt='' class='site-logo' src='https://www.epa.gov/sites/all/themes/epa/logo.png'>
        <div class='site-name-and-slogan'>
-       <h1 class='site-name'><a href='/' rel='home' title='Go to the home page'><span>US EPA</span></a></h1>
+       <h1 class='site-name'><a href='https://www.epa.gov/' rel='home' title='Go to the home page'><span>US EPA</span></a></h1>
        <div class='site-slogan'>
        United States Environmental Protection Agency
        </div>
@@ -35,11 +35,11 @@ fluidPage(
        <h2 class='element-invisible'>Main menu</h2>
        <ul class='menu' role='menu'>
        <li class='expanded active-trail menu-item' role='presentation'>
-       <a class='active-trail menu-link' href='/environmental-topics' role='menuitem' title='View links to the most popular pages for each of EPA?s top environmental topics.'>Environmental Topics</a></li>
+       <a class='active-trail menu-link' href='https://www.epa.gov/environmental-topics' role='menuitem' title='View links to the most popular pages for each of EPA?s top environmental topics.'>Environmental Topics</a></li>
        <li class='menu-item' role='presentation'>
-       <a class='menu-link' href='/laws-regulations' role='menuitem' title='View links to regulatory information by topic and sector, and to top pages about environmental laws, regulations, policies, compliance, and enforcement.'>Laws &amp; Regulations</a></li>
+       <a class='menu-link' href='https://www.epa.gov/laws-regulations' role='menuitem' title='View links to regulatory information by topic and sector, and to top pages about environmental laws, regulations, policies, compliance, and enforcement.'>Laws &amp; Regulations</a></li>
        <li class='expanded menu-item' role='presentation'>
-       <a class='menu-link' href='/aboutepa' role='menuitem' title='Learn more about our mission, organization, and locations.'>About EPA</a></li>
+       <a class='menu-link' href='https://www.epa.gov/aboutepa' role='menuitem' title='Learn more about our mission, organization, and locations.'>About EPA</a></li>
        </ul>
        </div>
        </nav>
@@ -61,7 +61,7 @@ fluidPage(
        <div class='view view-revision-hublinks view-id-revision_hublinks'>
        <span class='related-info'><strong>Related Topics:</strong></span>
        <ul class='menu pipeline'>
-       <li class='menu-item'><a href='/environmental-topics'>Environmental Topics</a></li>
+       <li class='menu-item'><a href='https://www.epa.gov/environmental-topics'>Environmental Topics</a></li>
        </ul>
        </div>
        </div>
