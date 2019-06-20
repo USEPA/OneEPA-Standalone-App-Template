@@ -1,6 +1,6 @@
 /** Tabs *********************************************************************/
-.tabs > li > a,
-.tabs > li > a:visited {
+section .tabs > li > a,
+section .tabs > li > a:visited {
   background-color: #d6d7d9;
   color: #212121;
   line-height: 1;
@@ -9,67 +9,66 @@
   text-decoration: none;
 }
 @media screen and (min-width: 30em) {
-  .tabs > li > a,
-  .tabs > li > a:visited {
+  section .tabs > li > a,
+  section .tabs > li > a:visited {
     margin: 0 0 .5em;
   }
-  .tabs > li > a:hover,
-  .tabs > li > a:focus,
-  .tabs > li > a:active {
-    background-color: #aeb0b5;
-    box-shadow: none;
-    color: #212121;
-    outline: 0;
-    text-decoration: none;
-  }
-  .tabs > li.active > a,
-  .tabs > li.active > a:hover {
-    background-color: #212121;
-    color: #fff;
-  }
-  .tabs > li.active > a:focus {
-    background-color: #323a45;
-  }
-  .tabs > li.active > a:hover {
-    cursor: default;
-  }
-
-  .tabs {
-    margin-bottom: 1.5em;
-  }
-  .tabs > li > a > br {
-    display: none;
-  }
 }
-
+section .tabs > li > a:hover,
+section .tabs > li > a:focus,
+section .tabs > li > a:active {
+  background-color: #aeb0b5;
+  box-shadow: none;
+  color: #212121;
+  outline: 0;
+  text-decoration: none;
+}
+section .tabs > li.active > a,
+section .tabs > li.active > a:hover {
+  background-color: #212121;
+  color: #fff;
+}
+section .tabs > li.active > a:focus {
+  background-color: #323a45;
+}
+section .tabs > li.active > a:hover {
+  cursor: default;
+}
+section .tabs {
+  margin-bottom: 1.5em;
+}
+section .tabs > li > a > br {
+  display: none;
+}
 @media screen and (min-width: 30em) {
-  .tabs {
+  section .tabs {
     margin-bottom: 1em;
   }
-  .tabs > li {
+  section .tabs > li {
     border-bottom: 1px solid #aeb0b5;
+    float: left;
     padding-right: .5em; /* LTR */
     margin-bottom: .5em;
   }
-  .tabs > li:first-child {
+  section .tabs > li:first-child {
     padding-left: .5em; /* LTR */
   }
-  .tabs > li > a {
+  section .tabs > li > a {
     border-radius: 3px 3px 0 0 !important;
     margin: 0;
   }
-  .tabs > li > a > br {
+  section .tabs > li > a > br {
     display: block;
   }
 }
-.tabs > li > a:focus,
-.tabs > li > a:hover {
+section .tabs > li > a:focus,
+section .tabs > li > a:hover {
   border-color: #aeb0b5;
 }
-.tabs > li:first-child > a {
+section .tabs > li:first-child > a {
   border-radius: 3px 3px 0 0;
 }
-.tabs > li:last-child > a {
+section .tabs > li:last-child > a {
   border-radius: 0 0 3px 3px;
 }
 
