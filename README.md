@@ -1,3 +1,5 @@
+DEPRECATED - This repository is no longer being maintained and is available for reuse. 
+
 # One EPA Standalone Application Template
 The application template for all applications on \*.epa.gov (unless you have a waiver).
 
