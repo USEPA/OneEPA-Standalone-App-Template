@@ -1,3 +1,5 @@
+DEPRECATED - This repository has been archived and is no longer maintained. The code is provided for historical reference and may contain unpatched or unknown vulnerabilities. It should not be used in production systems.
+
 DEPRECATED - This repository is no longer being maintained and is available for reuse. 
 
 # One EPA Standalone Application Template
