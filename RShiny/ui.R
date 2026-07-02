@@ -1,5 +1,7 @@
 # ui.R
 fluidPage(
+  # if width of app feels too narrow, uncomment the following line
+  #tags$body(class = "html wide-template"),
   tags$head(tags$link(rel = "stylesheet",
                       type = "text/css", href = "style.css")),
 # Header
